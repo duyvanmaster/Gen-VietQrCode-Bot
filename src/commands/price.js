@@ -46,12 +46,12 @@ client.on('interactionCreate', async interaction => {
         embeds:
         [
           new EmbedBuilder()
-          .setTitle('<:ea_price_tag4:1271466536829190276> Bảng giá H4X VN')
-          .setDescription('<a:dot_red:1271466534367137804> Lựa chọn sản phẩm dưới menu để biết chi tiết về giá')
+          .setTitle('<a:moneyprice:1203214243105607740> Bảng giá LegitVN')
+          .setDescription('<a:dot_red:1202952521757499462> Lựa chọn sản phẩm dưới menu để biết chi tiết về giá')
           .setImage('https://cdn.discordapp.com/attachments/1161271813460996126/1204309215582232616/gamesensepricehigh.gif?ex=65d4435b&is=65c1ce5b&hm=95bc8e4397e6bd297079ce6b9609de640364e42ed8246e19cf79e5ca26fef84d&') // Thêm hình ảnh
           .setColor('#d8427f')
           .setTimestamp()
-          .setFooter({ text: 'H4X VN | The best or nothing'})
+          .setFooter({ text: 'LegitVN | The best or nothing'})
         ],
         components: [row]
       });
@@ -85,10 +85,10 @@ client.on('interactionCreate', async interaction => {
           embeds: [      
             new EmbedBuilder()
             .setTitle('Bảng giá Regedit <:regedit:1066225725574742126>')
-            .setDescription('**<a:dot_red:1271466534367137804> Regedit Limited: ~~600.000đ~~ ```yaml\n300.000đ```\n<a:dot_red:1271466534367137804> Regedit Config: ```yaml\n800.000đ```**')
+            .setDescription('**<a:dot_red:1202952521757499462> Regedit Limited: ~~600.000đ~~ ```yaml\n300.000đ```\n<a:dot_red:1202952521757499462> Regedit Config: ```yaml\n800.000đ```**')
             .setColor('#42e3ff')
             .setTimestamp()
-            .setFooter({ text: 'H4X VN | The best or nothing'})],
+            .setFooter({ text: 'LegitVN | The best or nothing'})],
           components: [newRow],
           ephemeral : true
       });
@@ -119,10 +119,10 @@ client.on('interactionCreate', async interaction => {
         embeds: [      
           new EmbedBuilder()
           .setTitle('Bảng giá Tối Ưu <:batch:1066226152798167080>')
-          .setDescription('<a:dot_red:1271466534367137804> **Tối Ưu + Setup All Emulator V1.2.1: ~~600.000đ~~```yaml\n150.000đ```\n<a:dot_red:1271466534367137804> FixLag - Tools Boost FPS (3 Tools)```yaml\n60.000đ```**')
+          .setDescription('<a:dot_red:1202952521757499462> **Tối Ưu + Setup All Emulator V1.2.1: ~~600.000đ~~```yaml\n150.000đ```\n<a:dot_red:1202952521757499462> FixLag - Tools Boost FPS (3 Tools)```yaml\n60.000đ```**')
           .setColor('#ffffff')
           .setTimestamp()
-          .setFooter({ text: 'H4X VN | The best or nothing'})],
+          .setFooter({ text: 'LegitVN | The best or nothing'})],
         components: [newRow],
         ephemeral : true
     });
@@ -158,10 +158,10 @@ client.on('interactionCreate', async interaction => {
         embeds: [      
           new EmbedBuilder()
           .setTitle('Bảng giá FixRecoil <:terminal:1203229939436879872>')
-          .setDescription('<a:dot_red:1271466534367137804> **FixRecoil V3: ```yaml\n150.000đ```\n<a:dot_red:1271466534367137804> FixRecoil V4:```yaml\n300.000đ```\n<a:dot_red:1271466534367137804> Headlock:```yaml\n300.000đ```**')
+          .setDescription('<a:dot_red:1202952521757499462> **FixRecoil V3: ```yaml\n150.000đ```\n<a:dot_red:1202952521757499462> FixRecoil V4:```yaml\n300.000đ```\n<a:dot_red:1202952521757499462> Headlock:```yaml\n300.000đ```**')
           .setColor('#000000')
           .setTimestamp()
-          .setFooter({ text: 'H4X VN | The best or nothing'})],
+          .setFooter({ text: 'LegitVN | The best or nothing'})],
         components: [newRow],
         ephemeral : true
     });
@@ -185,11 +185,11 @@ client.on('interactionCreate', async interaction => {
           [
             new EmbedBuilder()
             .setTitle('<:batch:1066226152798167080> **Tối Ưu + Setup All Emulator (Recommend) V1.2.1**')
-            .setDescription('<a:dot_red:1271466534367137804> **Giá: ~~300.000đ~~ > __150.000đ__**\n\n<a:dot_red:1271466534367137804> Tạo <#1069964275046682705> để được hỗ trợ chi tiết thêm về sản phẩm.')
+            .setDescription('<a:dot_red:1202952521757499462> **Giá: ~~300.000đ~~ > __150.000đ__**\n\n<a:dot_red:1202952521757499462> Tạo <#1069964275046682705> để được hỗ trợ chi tiết thêm về sản phẩm.')
             .setImage('https://cdn.discordapp.com/attachments/1111966282343002172/1185451368077598760/ofe.png') // Thêm hình ảnh
             .setColor('#ffffff')
             .setTimestamp()
-            .setFooter({ text: 'H4X VN | The best or nothing'})
+            .setFooter({ text: 'LegitVN | The best or nothing'})
           ],
           ephemeral : true})
       }
