@@ -108,18 +108,13 @@ client.on('interactionCreate', async interaction => {
               value: 'optimize121',
               emoji: '1066226152798167080'
             },
-            {
-              label: 'FixLag - Tools Boost FPS (3 Tools)',
-              value: '3tools',
-              emoji: '1066226152798167080'
-            },
           ])
       );
       await interaction.reply({
         embeds: [      
           new EmbedBuilder()
           .setTitle('Bảng giá Tối Ưu <:batch:1066226152798167080>')
-          .setDescription('<a:dot_red:1202952521757499462> **Tối Ưu + Setup All Emulator V1.2.1: ~~600.000đ~~```yaml\n150.000đ```\n<a:dot_red:1202952521757499462> FixLag - Tools Boost FPS (3 Tools)```yaml\n60.000đ```**')
+          .setDescription('<a:dot_red:1202952521757499462> **Tối Ưu + Setup All Emulator V1.2.1: ~~300.000đ~~```yaml\n150.000đ```\n**')
           .setColor('#ffffff')
           .setTimestamp()
           .setFooter({ text: 'LegitVN | The best or nothing'})],
@@ -138,17 +133,12 @@ client.on('interactionCreate', async interaction => {
           .setPlaceholder('Chi tiết về sản phẩm')
           .addOptions([
             {
-              label: 'FixRecoil V3',
-              value: 'frv3',
-              emoji: '1203229939436879872'
-            },
-            {
               label: 'FixRecoil V4',
               value: 'frv4',
               emoji: '1203229939436879872'
             },
             {
-              label: 'FixRecoil V4',
+              label: 'Headlock',
               value: 'headlock',
               emoji: '1203229939436879872'
             },
@@ -158,7 +148,7 @@ client.on('interactionCreate', async interaction => {
         embeds: [      
           new EmbedBuilder()
           .setTitle('Bảng giá FixRecoil <:terminal:1203229939436879872>')
-          .setDescription('<a:dot_red:1202952521757499462> **FixRecoil V3: ```yaml\n150.000đ```\n<a:dot_red:1202952521757499462> FixRecoil V4:```yaml\n300.000đ```\n<a:dot_red:1202952521757499462> Headlock:```yaml\n300.000đ```**')
+          .setDescription('**<a:dot_red:1202952521757499462> FixRecoil V4:```yaml\n300.000đ```\n<a:dot_red:1202952521757499462> Headlock:```yaml\n300.000đ```**')
           .setColor('#000000')
           .setTimestamp()
           .setFooter({ text: 'LegitVN | The best or nothing'})],
@@ -193,18 +183,9 @@ client.on('interactionCreate', async interaction => {
           ],
           ephemeral : true})
       }
-      else if(interaction.values == "3tools") {
-        interaction.reply({
-          content:"**<:batch:1066226152798167080>  FixLag - Tools Boost FPS (3 Tools)**\n- Giá: __60.000đ__\n- Support 2 giả lập phổ biến và tốt nhất: Bluestacks, MsiPlayer\n- Hỗ trợ cài đặt và tư vấn nhiệt tình tại <#1069964275046682705>",
-          ephemeral : true})
-      }
+
   
       // Fixreocil options
-      else if(interaction.values == "frv3") {
-        interaction.reply({
-          content:"**<:terminal:1203229939436879872>  FixRecoil V3**\n- Giá: __150.000đ__\n- Support 2 giả lập phổ biến và tốt nhất: Bluestacks, MsiPlayer\n- Hỗ trợ cài đặt và tư vấn nhiệt tình tại <#1069964275046682705>",
-          ephemeral : true})
-      }
       else if(interaction.values == "frv4") {
         interaction.reply({
           content:"**<:terminal:1203229939436879872>  FixRecoil V4**\n- Giá: __300.000đ__\n- Support 2 giả lập phổ biến và tốt nhất: Bluestacks, MsiPlayer\n- Hỗ trợ cài đặt và tư vấn nhiệt tình tại <#1069964275046682705>",
