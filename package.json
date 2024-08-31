@@ -10,8 +10,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.7.5",
+    "discord-api-types": "^0.37.98",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "qrcode": "^1.5.4",
+    "vietqr": "^1.1.9"
   }
 }

@@ -13,7 +13,7 @@ const client = new Client({ intents:
 require('dotenv').config();
 require('./commands/commands')
 require('./commands/price')
-
+require('./commands/qrcode')
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setActivity({

@@ -9,7 +9,7 @@ const client = new Client({ intents:
     ],
 });
 
-console.log('Logged in price.!')
+console.log('./price.js')
 
 client.on('interactionCreate', async interaction => {
     if (!interaction.isChatInputCommand()) return;
