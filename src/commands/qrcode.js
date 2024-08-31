@@ -74,7 +74,6 @@ client.on('interactionCreate', async interaction => {
             // Create an embed with the information and link
             const embed = new EmbedBuilder()
             .setColor('#ffffff')
-            .setTitle('QR Code Information')
             .addFields(
               { 
                 name: 'Ngân hàng', 
