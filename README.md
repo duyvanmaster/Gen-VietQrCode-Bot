@@ -15,6 +15,8 @@ Check it out [HERE!](https://github.com/duyvanmaster/Price-Bot/)
 ## Tutorial
 
 ### Instruct
+> Install [node.js](https://nodejs.org/en/download/)
+
 > Configure `.env` file Change `TOKEN=<YOUR BOT TOKEN>`, `CLIENT_ID=<YOUR BOT ID>` And `GUILD_ID=<YOUR DISCORD SERVER ID>`
 
 Bot setup command
