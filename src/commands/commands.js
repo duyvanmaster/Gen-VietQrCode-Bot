@@ -75,7 +75,7 @@ const commands = [
           required: false,
           choices: [
             { name: 'Compact', value: 'compact' },
-            { name: 'Standard', value: 'standard' },
+            { name: 'Qr Only', value: 'qr__only' },
             { name: 'Print', value: 'print' }
           ]
         },
